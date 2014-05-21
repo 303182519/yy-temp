@@ -1,0 +1,3 @@
+{
+  "trunk/plugins/plugins.js": "trunk/plugins/{%= name %}.js"
+}

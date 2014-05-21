@@ -1,0 +1,31 @@
+{
+    "name": "{%= name %}",
+    "version": "{%= version %}",
+    "author": "{%= author %} <{%= author %} @yy.com>",
+    "description": "{%= description %}",
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-cmd-transport": "~0.2.4",
+        "grunt-cmd-concat": "~0.2.0",
+        "grunt-contrib-uglify": "~0.2.0",
+        "grunt-contrib-cssmin": "~0.6.0",
+        "grunt-contrib-copy": "~0.4.1",
+        "grunt-replace": "~0.4.4",
+        "jpegtran-bin": "0.2.0",
+        "grunt-contrib-imagemin":"~0.3.0",
+        "grunt-contrib-htmlmin":"~0.1.3",
+        "grunt-contrib-clean": "~0.4.0",
+        "grunt-autoprefixer": "~0.7.0"
+    },
+    "spm": {
+        "alias": {
+            "common": "common",
+            "base": "base",
+            "class":"class",
+            "events":"events",
+            "widget":"widget",
+            "artTemplate":"artTemplate"
+        }
+    }
+}
+
